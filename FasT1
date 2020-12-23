@@ -562,19 +562,3 @@ def brute():
 if __name__ == '__main__':
     login()
                       
-               print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mPassword \x1b[1;91m:\x1b[1;97m ' + pw
-                        keluar()
-                except requests.exceptions.ConnectionError:
-                    print '\x1b[1;91m[!] Connection Error'
-                    time.sleep(1)
-
-        except IOError:
-            print '\x1b[1;91m[!] File not found...'
-            print "\n\x1b[1;91m[!] \x1b[1;92mLooks like you don't have a wordlist"
-            super()
-
-
-if __name__ == '__main__':
-    login()
-                      
-             
