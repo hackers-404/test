@@ -552,7 +552,7 @@ def pilih_super():
                                                             cek.write(user + '|' + pass12 + '\n')
                                                             cek.close()
                                                             cekpoint.append(user + pass12)
-      except
+        except
 	pass  
 		
     p = ThreadPool(30)
